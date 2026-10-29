@@ -192,8 +192,8 @@ print("Manhattan:", round(accuracy_m * 100, 2), "%")
 if accuracy_e > accuracy_m:
     print("Euclidean performed better.")
 elif accuracy_m > accuracy_e:
-    print("Manhattan performed better.")
+    print("Manhattan performed better .")
 else:
     print("Both methods achieved the same accuracy.")
-
+print("\nDone.")
 #python .\cats_and_dogs_filtered\vectorize.py
