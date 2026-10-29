@@ -1,0 +1,39 @@
+@"
+# Cat and Dog Image Classification Using KNN
+
+## Overview
+This project uses the K-Nearest Neighbors (KNN) algorithm
+to classify images into two categories: cats and dogs.
+
+## Technologies
+- Python
+- NumPy
+- Matplotlib
+- Pillow
+- Scikit-learn
+
+## Methodology
+1. Load the cat and dog image datasets.
+2. Resize images to 32 x 32 pixels.
+3. Convert RGB images into numerical feature vectors.
+4. Train and evaluate the KNN classifier.
+5. Compare Euclidean and Manhattan distance metrics.
+6. Evaluate the results using accuracy and confusion matrices.
+
+## Results
+The project compares KNN classification performance using
+Euclidean and Manhattan distance metrics.
+
+See the accuracy_comparison.png and confusion_matrices.png
+files for the visual results.
+
+## Project Structure
+- cats_and_dogs_filtered/ - Dataset and project scripts
+- accuracy_comparison.png - Accuracy comparison graph
+- confusion_matrices.png - Confusion matrix visualizations
+- .gitignore - Files excluded from Git
+- README.md - Project documentation
+
+## Author
+Mindelah Jemal
+"@ | Set-Content README.md
